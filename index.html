@@ -13,7 +13,8 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="logo">
+        <div class="logo flexcontainer">
+            <img class="logoimg" src="content/logo.png" alt="logo">
           <a href="#">Goodwill Library</a>
         </div>
         <nav class="nav">
@@ -23,6 +24,11 @@
             <li><a href="#facilities">Facilities</a></li>
             <li><a href="#pricing">Pricing</a></li>
             <li><a href="#contact-us">Contact</a></li>
+            <li><a href="#membership" style="padding-left: 20px;margin-left: 20px;
+                margin-right: -14px;
+                margin-top: -7px;
+                background: linear-gradient(135deg, #6b11cbdc, #2574fcd7);
+            " class="cta-button">Book Your Seat</a></li>
           </ul>
         </nav>
         <div class="menu-toggle" id="menuToggle">
@@ -40,7 +46,7 @@
           A serene space for self-study with top-notch facilities and a peaceful
           environment.
         </p>
-        <a href="#membership" class="cta-button">Join Us Today</a>
+        <a href="https://forms.gle/BJ7HWRnog7jRQn7k6" class="cta-button">Join Us Today</a>
       </div>
     </section>
 
@@ -183,19 +189,19 @@
                     <h3 class="pricing-plan-title">Day Plan</h3>
                     <p class="pricing-price">₹600 <span class="period">/ month</span></p>
                     <p class="pricing-description">Access from 8 AM to 8 PM, 12 hours a day.</p>
-                    <a href="#contact" class="cta-button">Book Now</a>
+                    <a href="https://forms.gle/BJ7HWRnog7jRQn7k6" class="cta-button">Book Now</a>
                 </div>
                 <div class="pricing-card" id="full-plan">
                     <h3 class="pricing-plan-title">Full Plan</h3>
                     <p class="pricing-price">₹900 <span class="period">/ month</span></p>
                     <p class="pricing-description">24-hour access, day and night.</p>
-                    <a href="#contact" class="cta-button">Book Now</a>
+                    <a href="https://forms.gle/BJ7HWRnog7jRQn7k6" class="cta-button">Book Now</a>
                 </div>
                 <div class="pricing-card" id="night-plan">
                     <h3 class="pricing-plan-title">Night Plan</h3>
                     <p class="pricing-price">₹400 <span class="period">/ month</span></p>
                     <p class="pricing-description">Access from 8 PM to 8 AM, 12 hours a night.</p>
-                    <a href="#contact" class="cta-button">Book Now</a>
+                    <a href="https://forms.gle/BJ7HWRnog7jRQn7k6" class="cta-button">Book Now</a>
                 </div>
             </div>
         </div>
@@ -286,14 +292,14 @@
     <section class="social-media" id="social-media">
         <div class="container socialmediacontainer">
             <h2 class="social-media-title">Follow Us</h2>
-            <div class="flexcontainer">
+            <div style="justify-content: space-between;" class="flexcontainer">
             <p class="social-media-description">Stay updated with the latest news and events by following us on social media.</p>
             <div class="social-media-links">
-                <a href="https://facebook.com" class="social-media-link" id="facebook">
+                <a href="https://facebook.com/vinaythakur41" class="social-media-link" id="facebook">
                     <i class="fab fa-facebook-f"></i>
                 
                 </a>
-                <a href="https://instagram.com" class="social-media-link" id="instagram">
+                <a href="https://instagram.com/vinaythakur41" class="social-media-link" id="instagram">
                     <i class="fab fa-instagram"></i>
                 </a>
             </div>
@@ -334,8 +340,8 @@
                     </p>
                     <p class="contact-phone">
                         <i class="fas fa-phone-alt"></i>
-                        <a href="tel:+91 8171013301">+91 8171 013 301</a> |
-                        <a href="tel:+91 9719700170">+91 9719 700 170</a>
+                        <a href="tel:+918171013301">+91 8171 013 301</a> |
+                        <a href="tel:+919719700170">+91 9719 700 170</a>
                     </p>
                     <div class="map-container">
                         <h3 class="map-title">Find Us</h3>
@@ -344,7 +350,17 @@
                     <p class="contact-email">
                         <i class="fas fa-envelope"></i>
                         <a href="mailto:info@goodwilllibrary.com">info@goodwilllibrary.com</a>
-                        <button href="https://wa.link/2a3ucx";>Message Now</button>
+                        
+                        <a href="https://wa.link/2a3ucx"
+                        style="display: inline-flex; align-items: center; background: linear-gradient(145deg, #25D366, #128C7E); 
+                        color: white; padding: 10px 20px; border-radius: 50px; font-size: 16px; text-decoration: none; 
+                        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                       
+                       <!-- WhatsApp Icon -->
+                       <i style="color:rgb(4, 97, 134); font-weight: bold;" class="fa-brands fa-whatsapp"></i>&nbsp;
+                       
+                       Message Now
+                     </a>
                     </p>
                 </div>
             </div>
