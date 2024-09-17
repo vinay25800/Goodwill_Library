@@ -2,7 +2,11 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  overflow-x: hidden; /* Prevent horizontal scroll due to animations */
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 /* Header Styles */
@@ -26,7 +30,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  width: 100%; /* Ensure containers are not wider than the viewport */
+  max-width: 1200px; /* Set a maximum width if needed */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -967,6 +973,8 @@ body {
 @media (max-width: 648px) {
   .social-media-description {
     text-align: left;
+    font-size: 12px;
+    padding-top: 10px;
   }
 }
 
@@ -1152,6 +1160,16 @@ whatsbtn {
   .contact-card,
   .contact-details {
     width: 90%;
+  }
+  .mailcontact {
+    font-size: 10px;
+  }
+  .wbtn {
+    font-size: 12px !important;
+    padding: 6px 8px !important;
+  }
+  .contact-phone {
+    font-size: 11px !important;
   }
 }
 
