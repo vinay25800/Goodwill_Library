@@ -153,5 +153,5 @@ document.addEventListener("DOMContentLoaded", () => {
   setInterval(() => {
     currentScroll = (currentScroll + itemWidth) % (maxScroll + itemWidth);
     galleryGrid.style.transform = `translateX(-${currentScroll}px)`;
-  }, 5000); // Adjust the interval time as needed
+  }, 3000); // Adjust the interval time as needed
 });
