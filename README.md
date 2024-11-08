@@ -34,6 +34,7 @@
 
   <div class="section">
         <h2>How to Use</h2>
+   <p>https://vinay25800.github.io/Goodwill_Library/</p>
         <p>To get started with this landing page, clone the repository and open the <code>index.html</code> file in your browser.</p>
     </div>
 
