@@ -1,6 +1,8 @@
  <div class="header">
        <a href="https://vinay25800.github.io/Goodwill_Library/"> <h1 style = "font-style:none">Goodwill Library</h1></a>
-        <p>Welcome to the Goodwill Library landing page repository! 🌟</p>
+  
+<p>Welcome to the Goodwill Library landing page repository! 🌟</p>
+        <p>https://vinay25800.github.io/Goodwill_Library/</p>
     </div>
 
    <div class="section">
